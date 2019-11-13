@@ -200,7 +200,7 @@ body {
 
 /* 轮播图 */
 .w{
-	width: 1190px;
+	width: 960px;
 	height: 300px;
 	margin: 0 auto;
 }
@@ -294,4 +294,170 @@ ul {
 
 .normalColor {
 	background-color: rgba(0, 0, 0, 0.5);
+}
+
+    /* 住宅区域 */
+.Residential-area{
+    width: 960px;
+    height: 320px;
+    background-color: cornsilk;
+    margin: auto;
+    
+}
+.Residential-select{
+    
+    width: 940px;
+    height:32px;
+    /* background-color:#00ffff;  */
+    /* list-style: none; */
+    margin: 10px;
+}
+.Residential-select a:hover{
+    color: crimson;
+}
+.Residential-select p{
+    margin-top:5px;
+    margin-left: 5px;
+    float:left;
+    font-size :21px;
+}
+.Residential-select a{
+    margin-top:5px;
+    text-decoration: none;
+    float:right;
+}
+.Residential-imgregion{
+    display: -webkit-flex;
+    display: flex;
+    width: 940px;
+    height:310px;
+    margin: 10px 10px 10px 10px ;
+    /* background-color:cyan;  */
+}
+.Residential-imgregion-is{
+    /* float:left; */
+    width: 215px;
+    height: 290px;
+    /* background-color:darkorange; */
+    /* margin-top: 0px; */
+    margin:10px;
+}
+
+/* .Residential-imgregion-is img{
+    transition: transform 0.3s ease 0s;
+}
+a:hover .Residential-imgregion-is img {
+    transform: scale(1.05);
+} */
+
+.Residential-imgregion-is li{
+    list-style-type:none;
+}
+.Residential-imgregion-is h4{
+    /* margin-top:10px; */
+    /* text-align: center; */
+    font-size :18px;
+}
+.Residential-imgregion-is p{
+    margin-top:0px;
+    /* float:left; */
+    font-size :13px;
+}
+.Residential-imgregion-is a{
+    /* margin-top:5px; */
+    text-decoration: none;
+    /* float:right; */
+    /* font-size :13px; */
+    
+}
+.Residential-imgregion-label{
+    width: 215px;
+    height: 30px;
+    /* background-color: brown; */
+}
+.Residential-imgregion-label a{
+    text-decoration: none;
+    /* float:left; */
+    font-size :13px;
+    margin-right:10px;
+    
+}
+.Residential-imgregion-label p{
+    text-decoration: none;
+    float:right;
+    font-size :13px;
+    margin-right:20px;
+    margin-top: 3px;
+}
+.ys{
+    margin:10px;
+    /* text-align: center; */
+}
+/* 小吃区域 */
+.Snack-area{
+    
+    width: 960px;
+    height: 420px;
+    background-color: cornsilk;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.Snack-imgarea{
+    display: -webkit-flex;
+    display: flex;
+   width: 940px;
+    height:350px;
+    margin: 10px;
+    /* background-color: chartreuse; */
+}
+.Snack-imgarea-as{
+    
+    width: 320px;
+    height: 330px;
+    margin: 10px;
+    background-color:blanchedalmond;
+}
+.Snack-imgarea-as a{
+    text-decoration: none;
+    font-size :13px;
+    color:lightcoral;
+}
+.Snack-imgarea-ay{
+
+    width:570px;
+    height: 330px;
+    margin: 10px;
+    /* background-color:blueviolet */
+}
+.Snack-imgarea-li{
+    float:left;
+    display: -webkit-flex;
+    display: flex;
+    width:175px;
+    height: 150px;
+    margin: 5px 5px 10px 10px;
+    background-color: burlywood;
+}
+
+.Snack-More{
+      
+    width: 940px;
+    height:32px;
+    margin: 10px;
+    /* background-color: chartreuse; */
+}
+.Snack-More a:hover{
+    color: crimson;
+}
+.Snack-More p{
+    margin-top:5px;
+    margin-left: 5px;
+    float:left;
+    font-size :21px;
+}
+.Snack-More a{
+    margin-top:5px;
+    text-decoration: none;
+    float:right;
 }
