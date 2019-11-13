@@ -195,3 +195,103 @@ body {
 }
 
 
+
+
+
+/* 轮播图 */
+.w{
+	width: 1190px;
+	height: 300px;
+	margin: 0 auto;
+}
+.slider {
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+/* .slider a,
+p,
+li,
+ul {
+	margin: 0;
+	padding: 0;
+} */
+
+.displayImg>img {
+	transition: opacity 20s linear;
+	opacity: 1;
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+}
+
+#images {
+	position: relative;
+	width: 100%;
+}
+
+#images>a {
+	transition: opacity 1s linear;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.displayImg {
+	opacity: 1;
+}
+
+.hiddenImg {
+	opacity: 0;
+}
+
+#images img {
+	transition: opacity 20s linear;
+	opacity: 1;
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.txt-box {
+	/* width: 100%; */
+	width: 125px;
+	height: 25px;
+	list-style: none;
+	position: absolute; 
+	left: 500px;
+	bottom: 10px;
+	display: flex;
+	z-index: 5;
+	transition: height 0.1s linear 0s;
+	/* border-radius: 25px;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 5px 0 0 5px; */
+}
+
+.txtItem {
+	/* width: 12.5%; */
+	width: 20px;
+	margin-right: 5px;
+	color: #fff;
+	/* text-align: center; */
+	height: 20px;
+	border-radius: 25px;
+}
+
+.txtItem:last-child {
+	margin: 0;
+}
+
+.txtItem:hover,
+.heighlightColor {
+	background-color: rgb(252, 164, 2);
+}
+
+.normalColor {
+	background-color: rgba(0, 0, 0, 0.5);
+}
