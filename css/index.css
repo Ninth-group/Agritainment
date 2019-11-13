@@ -32,7 +32,7 @@ body {
 }
 .nav {
 	height: 35px;
-	width: 1190px;
+	width: 960px;
 	margin: 0 auto;
 }
 .nav ul li {
@@ -397,7 +397,7 @@ a:hover .Residential-imgregion-is img {
 .Snack-area{
     
     width: 960px;
-    height: 420px;
+    height: 410px;
     background-color: cornsilk;
     margin: auto;
     margin-top: 20px;
