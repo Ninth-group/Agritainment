@@ -234,7 +234,7 @@ ul {
 }
 
 #images>a {
-	transition: opacity 1s linear;
+	transition: opacity 2s linear;
 	position: absolute;
 	top: 0;
 	left: 0;
