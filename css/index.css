@@ -17,7 +17,7 @@
 }
 
 
-div a:hover {
+header a:hover {
     background-color:salmon;
     color: white;
 }
