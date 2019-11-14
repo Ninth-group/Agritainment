@@ -12,6 +12,14 @@
     height: 300px;
     background-color: #ffffff;
 }
+.make a{
+    color: #000;
+    display: block;
+}
+.make a:hover{
+    background-color: #ffffff;
+    color: #000;
+}
 .m-title{
     width: 960px;
     height: 30px;
