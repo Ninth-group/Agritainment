@@ -108,3 +108,169 @@ button:hover{
 }
 
 p.button {border-style:hidden;}
+
+
+
+/* 个人中心 */
+
+
+.Personal{
+    display: block;
+    margin:0 auto;
+    width: 500px;
+    height: 860px;
+    background: url(../images/背景图.jpeg);
+
+}
+.Personal-h{
+    background-color: #51a8dd;
+    height: 25px;
+    
+
+}
+.Personal h3{
+ 
+    text-align: center;
+    display: block;
+    
+    
+}
+.Personal .sy{
+    display: block;
+    float: left;
+}
+
+
+.dropbtn {
+    background-color:transparent;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+    
+   
+	
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+    float: right; 
+    margin-top: -28px;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: firebrick}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: bisque;
+}
+
+.fg{
+    margin-top: 70px;
+
+}
+
+.fg ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    background-color: #f1f1f1;
+}
+
+ .fg li a {
+    display: block;
+    color: #000;
+    padding: 20px 16px;
+    text-decoration: none;
+    margin-left: 35px;
+
+    
+
+}
+ .fg li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.fg img{
+    display: block;
+    float: left;
+    margin-top: 15px;
+}
+.fg a img{
+    display: block;
+    float: right;
+    margin-top: 15px;
+}
+
+
+.touxiang{
+    display: block;
+    /* margin-top: 30px;
+    margin-left: 50px; */
+    margin: 50px 80px   auto;
+    
+}
+
+.tx{
+    border-radius:150px;
+    background: white;
+    padding: 2px; 
+    width: 60px;
+    height: 55px;    
+    /* display: block; */
+}
+.tx img{
+    display: block;
+    margin: 0px auto;
+    border-radius:150px;
+
+}
+.touxiang h3{
+    display: block;
+    float: left;
+    margin: -50px 80px   auto;
+    color: #51a8dd;
+    
+    
+}
+.touxiang .p1{
+    display: block;
+    float: left;
+    margin: -20px 80px   auto;
+    color: tomato;
+
+}
+.touxiang .p2{
+    display: block;
+    float: left;
+    color: tomato;
+    margin-left: 150px;
+    margin-top: -25px;
+}
+.touxiang .p3{
+    display: block;
+    float: left;
+    margin: -25px 144px   auto;
+}
