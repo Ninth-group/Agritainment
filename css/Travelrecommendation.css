@@ -1,0 +1,84 @@
+
+.Hot-column{
+    margin: auto;
+    width: 940px;
+    height: 35px;
+    
+    background-color:white;
+}
+.Scenic-spot{
+    display: -webkit-flex;
+    display: flex;
+    margin: auto;
+    width: 940px;
+    height: 320px;
+    background-color:white;
+}
+.Scenic-spottxt{
+    width: 420px;
+    height: 300px;
+    margin: 10px;
+    /* background-color: cadetblue; */
+}
+.Scenic-spottxt h4{
+    margin: 20px;
+    padding: 0;
+    height: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: crimson;
+}
+.Scenic-spotimg{
+    width: 480px;
+    height: 300px;
+    margin: 10px;
+    background-color: cadetblue;
+}
+.action{
+    width: 420px;
+    height: 40px;
+    /* background-color: cyan; */
+}
+.action p{
+    font-weight:300;
+    font-size: 13px;
+}
+.xq{
+    width: 120px;
+    height: 45px;
+    /* background-color: darkblue; */
+}
+.xq a{
+    text-decoration: none;
+    color:black;
+}
+.xq em{
+    color:lightsalmon;
+}
+.qg{
+    width: 120px;
+    height: 45px;
+}
+.qg a{
+    text-decoration: none;
+    color:black;
+}
+.qg em{
+    color:lightsalmon;
+}
+.weima{
+    font-size: 13px;
+    text-decoration: none;
+    color: crimson;
+    text-align: center;
+}
+.shoy{
+    
+    margin: auto;
+    width: 940px;
+    height: 40px;
+}
+.shoy a{
+    text-decoration: none;
+    color:coral;
+}
